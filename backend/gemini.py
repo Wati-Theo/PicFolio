@@ -6,7 +6,7 @@ import threading
 
 load_dotenv()
 
-genai.configure(api_key=os.getenv('Gemini'))
+genai.configure(api_key='AIzaSyDxmcJJKdK_Q7V78Xo9k5Hau9RI36rBo28')
 
 model = genai.GenerativeModel('gemini-pro')
 
